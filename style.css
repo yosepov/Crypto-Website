@@ -1,0 +1,653 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.allPage{
+    background-color: greenyellow;
+}
+/* main scroll bar style */
+*::-webkit-scrollbar{
+    background-color: white;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track{
+    background-color: white;
+}
+*::-webkit-scrollbar-track:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: rgba(128, 128, 128, 0.432);
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(77, 211, 24);
+    border-radius: 10px;
+}
+
+#page {
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box 0px;
+    overflow: hidden;
+}
+
+header {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.349);
+    box-shadow: bottom 1px 1px 10px rgb(128, 128, 128);
+    display: block;
+    background-size: cover;
+    background-color: none;
+    background-color: white;
+}
+
+header h1,a {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#mainLinksBox{
+text-align: center;
+
+}
+
+#mainLinks li{
+    color: rgb(0, 180, 0);
+    text-decoration: none;
+}
+
+#mainLinks li span:hover{
+    color:  rgb(136, 255, 0);
+}
+
+#mainLinks li a span{
+    color: rgb(0, 180, 0);
+    margin: 20px;
+}
+
+#mainLinks li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+#mainLinksBox {
+    left: 40%;
+}
+/* register page*/
+.register-box {
+    width: 70%;
+    margin-top:30px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    text-align: center;
+    background-color: rgba(66, 66, 66, 0.479);
+    border-radius: 20px;
+}
+
+#fullName::placeholder,#emailRegister::placeholder,#userNameSignup::placeholder,#passwordSignup::placeholder {
+    color:white;
+}
+
+#registerHeader{  
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    border-bottom: 7px solid rgb(0, 199, 0);
+    margin-bottom: 50px 0;
+    padding: 13px 0 10px;
+    margin-left: 30px;
+}
+
+#signUpBox input{
+width: 30px;
+
+}
+
+#signUpBox #signUpAgreement{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#signUpBox #signUpAgreement:hover{
+    color:rgb(0, 255, 0);
+}
+
+#signUpBox button{
+    width: 100%;
+    height: 80px;
+    border:none;
+    background: rgba(0, 218, 36, 0.459);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin:  12px 0;
+    transition: 0.2s;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+
+#signUpBox button:hover{
+    background: rgba(25, 252, 63, 0.767);
+    color:white;
+    font-size: 30px;
+
+}
+
+/* Login Page */
+.helpLogin a{
+    text-decoration: none;
+}
+.login-box {
+   min-width: 320px;
+    max-width: 40%;
+    margin-top:30px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    text-align: center;
+    background-color: rgba(66, 66, 66, 0.479);
+    border-radius: 20px;
+}
+
+#loginHeader {
+    float: left;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    border-bottom: 7px solid rgb(0, 199, 0);
+    margin-bottom: 50px 0;
+    padding: 13px 0 10px;
+    margin-left: 30px;
+}
+
+
+#mainStyle {
+    overflow: hidden;
+    min-height: 500px;
+    background-image: url(assets/pictures/loginBackground.jpg);
+ background-size: cover;
+}
+
+
+#mainTermsStyle {
+    overflow: hidden;
+    text-align: center;
+    min-height: 500px;
+    background-image: url(assets/pictures/loginBackground.jpg);
+ background-size: cover;
+}
+
+#mainTermsStyle .loremTerms{
+font-size: 14px;
+color: black;
+font-family: fantasy;
+}
+
+.textBox {
+    overflow: hidden;
+    font-size: 19px;
+    padding: 8px;
+    margin: 7px 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(106, 255, 100);
+}
+
+.creatAccount {
+    display: inline-block;
+    margin-top: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(172, 172, 172);
+    width: 50%;
+    font-size: 22px;
+    transition: 0.1s;
+}
+
+.creatAccount:hover {
+    color: white;
+}
+
+.forgot:hover {
+    color: white;
+}
+
+/* Login input color */
+.textBox>.textBox:hover {
+    background-color: rgba(82, 255, 47, 0.829);
+    color: white;
+    border-radius: 20px;
+}
+
+/* login help sign up/forgot password/terms style */
+
+
+
+.forgot {
+    margin-top: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(172, 172, 172);
+    width: 50%;
+    font-size: 22px;
+    transition: 0.1s;
+    float: right;
+}
+
+.terms {
+    margin-top: 1px;
+    margin-left: 2px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    color: rgb(172, 172, 172);
+    width: 100%;
+    transition: 0.1s;
+}
+
+.terms:hover {
+    color: rgb(74, 255, 144);
+}
+
+/* Login Icons  */
+.textBox span{
+    float: left;
+    top: 36px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    left: 15px;
+}
+
+/* textBox = Login Box */
+.textBox input {
+    border: none;
+    outline: none;
+    background: rgba(0, 218, 36, 0.473);
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* To Do List: */
+.article .nameActivity {
+    margin: 8px;
+    font-size: 35px;
+    font-family: 'Gochi Hand', cursive;
+    display: block;
+    color: black;
+    text-shadow: 1px 2px 1px lightblue;
+}
+
+.timeCreation{
+    position: absolute;
+    text-align: center;
+    margin-top: 230px;
+    margin-left: 7px;
+    padding-right: 60px;
+    display: block;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(73, 73, 73, 0.432);
+    border-radius: 10px;
+}
+
+.dateActivity{
+    font-family: 'Sacramento', cursive;
+    display: block;
+    margin: 5px;
+    margin-top: 28px;
+}
+
+.article   {
+    padding-left: 10px;
+    margin: 2px;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: block;
+    color: black;
+    text-shadow: 1px 1px 12px lightblue;
+}
+
+.descriptionActivity {
+    padding-left: 10px;
+    margin: 5px;
+    font-family: 'Indie Flower', cursive; 
+       font-size: 18px;
+    color: black;
+    max-height: 400px;
+}
+
+/* To Do List scroll bar style */
+.index::-webkit-scrollbar{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.index::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+.index::-webkit-scrollbar-track:hover{
+    background-color: rgb(128, 128, 128);
+}
+
+.index::-webkit-scrollbar-thumb{
+    background-color: rgb(149, 236, 160);
+    border-radius: 10px;
+}
+
+.index::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(33, 163, 0);
+    border-radius: 10px;
+}
+
+/* To Do List Index/box */
+.index{
+    display: inline-block;
+    max-height:300px ;
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+background-image: url(assets/pictures/note.jpg);
+background-size: cover;
+margin:  70px;
+   text-align: center;
+   overflow-y:  auto ;
+   border-radius:  20px 0px 0px 20px;
+   border: 5px solid rgb(173, 173, 173);
+}
+
+
+
+
+#doListBox  input{
+    text-align: center;
+    width: 30%;
+    margin: 10px;    
+}
+
+.toDoListButtons{
+    text-align: center;
+}
+
+#doList button{
+    border: none;
+    margin: 5px;
+    width: 15%;;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: white;
+    color: green;
+}
+
+#doList button:nth-of-type(1):hover,#doList button:nth-of-type(2):hover {
+   
+    background-color: rgba(21, 255, 0, 0.384);
+    color: white;
+}
+
+#doList button:nth-of-type(3):hover{
+   
+    background-color:rgba(21, 255, 0, 0.384);
+    color: black;
+}
+
+/* To Do Lists main div */
+#misionsBox{
+margin-top: 340px;
+}
+
+/* To Do Lists buttons */
+#showAllButton, #deleteAllLists{
+    display: inline-block;
+    height: 35px;
+    width: 125px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: lightblue;
+    border: none;
+}
+
+.checkButton:hover {
+    background-color: rgb(0, 212, 11);
+color: rgb(253, 253, 253);
+box-shadow: 1px 3px 20px rgb(0, 233, 12);
+border-radius: 1px;
+}
+
+.checkButton {
+width: 100%;
+border: none;
+height: 42px;    
+background-color: rgba(42, 250, 0, 0.315);
+color: rgb(0, 97, 16);
+box-shadow: 1px 3px 20px greenyellow;
+font-family: 'Alfa Slab One', cursive;
+
+}
+
+
+
+
+
+.removeButton {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 27px;
+ position: absolute;
+ display: block;
+width:60px;
+background-color: white;
+color:gray;
+border-color: white;
+transition: 0.1s;
+border-radius:  15px 0px 0px 0px;
+
+}
+
+.removeButton:hover{
+background-color: white;
+color:red;
+border-color: red;
+
+}
+
+.button {
+    width: 100%;
+    height: 80px;
+    border:none;
+    background: rgba(0, 218, 36, 0.459);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin:  12px 0;
+    transition: 0.2s;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.button:hover {
+    background-color: rgb(0, 218, 36);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+/* All to do lists inputs */
+#missionDescription{
+    text-align: center;
+    margin-top: 16px;
+    min-width: 50%;
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 22px;
+    transition: 0.1s;
+    border-bottom: 1px solid greenyellow;
+}
+#missionTitle, #missionDate, #missionTime {
+    margin-top: 16px;
+    min-width: 50%;
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 22px;
+    transition: 0.1s;
+    border-bottom: 1px solid greenyellow;
+}
+
+#missionTitle:hover, #missionDescription:hover, #missionDate:hover, #missionTime:hover {
+    background-color: rgba(24, 247, 4, 0.123);
+}
+
+/* Create New Note header */
+.do-list-header{
+    color: rgb(0, 224, 0);
+    font-size: 33px;
+    font-family: sans-serif;
+    border-bottom: 1px solid greenyellow;
+    text-shadow: 0px 0px 2px black;
+}
+
+/* all paragraphs */
+p {
+    display: inline-block;
+}
+
+/* main create new to do list div - bootstrap */
+.row div {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 46px;
+    text-align: center;
+    top: 50px;
+    background-color:black;
+    height:10px;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+.row>#doList {
+    background-color: white;
+    color: black;
+    text-align: center;
+    top: 50px;
+
+
+}
+
+#listBox li:hover{
+    box-shadow: 10px 10px 30px rgb(161, 231, 179);
+}
+
+/* fade In effect To Do List */
+#listBox li {
+   box-shadow: 10px 10px 10px rgb(185, 185, 185);
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* footer design */
+footer{
+    background-color: black;
+    text-align: center;
+    color: rgb(184, 184, 184);
+}
+
+footer a i{
+    margin:  30px;
+}
+
+footer .footerIcons{
+    text-align: center;
+}
+
+footer .footerIcons a i{
+    color: gray;
+    font-size: 48px;
+}
+
+footer .footerIcons a:nth-of-type(1) i:nth-of-type(1):hover{
+    color:white;
+    text-shadow: 1px 1px 10px white;
+}
+
+footer .footerIcons a:nth-of-type(2) i:nth-of-type(1):hover{
+    color:rgb(11, 156, 48);
+    text-shadow: 1px 1px 10px rgb(11, 156, 48);
+}
+
+footer .footerIcons a:nth-of-type(3) i:nth-of-type(1):hover{
+    color:rgb(54, 40, 182);
+    text-shadow: 1px 1px 10px rgb(54, 40, 182)
+}
+
+/* terms page */
+#termsHeader{
+    font-size: 48px;
+    color:rgb(11, 199, 11);
+    border-bottom: 2px rgb(142, 231, 142) solid;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+/* forgot page */
+#ForgotHeader{
+    font-size: 48px;
+font-family: 'Alfa Slab One', cursive;}

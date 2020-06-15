@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icons/title Icon.jpg" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title> To Do List Site</title>
+</head>
+
+<body>
+    <header>
+        <h1>To Do List</h1>
+        <div id="mainLinksBox">
+            <ul id="mainLinks">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"> HOME</span></a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-user"> LOGIN</span></a></li>
+                <li><a href="register.html"><span class="glyphicon glyphicon-pencil"> REGISTER</span></a></li>
+                <li><a href="terms.html"><span class="glyphicon glyphicon-alert"> TERMS</span></a></li>
+
+            </ul>
+        </div>
+    </header>
+    <main>
+
+        <form id="mainForm" action="javascript:void(0);">
+            <div id="doListBox" class="row">
+                <div id="doList" class="col-12">
+                    <p class="do-list-header">Create New Note:</p>
+                    <br><br>
+                    <input id="missionTitle" type="text" title="Enter here the note title" maxlength="18"
+                        placeholder="Title  (18 Digits)" name="title">
+                    <br>
+                    <textarea id="missionDescription" title="Enter here the description of this note" type="text"
+                        placeholder="Description" name="description" cols="30" rows="2"></textarea>
+                    <br>
+                    <input id="missionDate" type="date" title="Enter Due Date" placeholder="Date of" name="date">
+                    <br>
+                    <input id="missionTime" type="time" title="Enter Due Time" placeholder="Due Time" name="time">
+                    <br>
+                    <p id="detailsParagraph"></p>
+                    <button onclick="showAll()" title="Show All Notes" class="Button"><span
+                            class="glyphicon glyphicon-th-large"></span></button>
+                    <button onclick="getDetails()" title="Add New To Do List!" class="Button"><span
+                            class="glyphicon glyphicon-plus"></span></button>
+                    <button type="reset" title="Clear Form" class="Button"><span
+                            class="glyphicon glyphicon-refresh"></span></button>
+                </div>
+
+            </div>
+            <div id="misionsBox">
+                <ul id="listBox">
+
+
+                </ul>
+            </div>
+
+    </main>
+    <br><br><br>
+    <br><br><br>
+    <footer>
+        <div class="footerIcons">
+            <a href=""><i class="fa fa-apple"></i></a>
+            <a href=""><i class="fa fa-android"></i></a>
+            <a href=""><i class="fa fa-facebook-f"></i>
+            </a>
+
+        </div>
+        <p id="copyrights"> &copy; 2019 Erez Yosepov All Rights Reserved.</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
